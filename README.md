@@ -1,20 +1,20 @@
 # Forensic++
 Requirment to run this project is in Linux/Unix environment
 <br>
-Steps to run the code
-(1) Download the google drive folder inside the same folder
-(2) Go to models.py file in network/__pychache__ folder and on line 26 change the file path xception-b5690688.pth to your PCs file path
-(3) Run the detect_from_video.py using the following code
-python detect_from_video.py
--i <path to input video or folder of videos with extenstion '.mp4' or '.avi'>
--m <path to model file, default is imagenet model
--o <path to output folder, will contain output video(s)>
+Steps to run the code <br>
+(1) Download the google drive folder inside the same folder <br>
+(2) Go to models.py file in network/__pychache__ folder and on line 26 change the file path xception-b5690688.pth to your PCs file path <br>
+(3) Run the detect_from_video.py using the following code <br>
+python detect_from_video.py <br>
+-i <path to input video or folder of videos with extenstion '.mp4' or '.avi'> <br>
+-m <path to model file, default is imagenet model <br>
+-o <path to output folder, will contain output video(s)> <br>
+<br> <br> <br>
+in -i enter the input video paths. For example give path to the faceswap folder <br>
+in -m give model path for example full, c23, c40 <br>
+in -o create an output folder and specify where to store files <br>
 
-in -i enter the input video paths. For example give path to the faceswap folder
-in -m give model path for example full, c23, c40
-in -o create an output folder and specify where to store files
-
-
-example: 
-python detect_from_video.py -i /Users/bqureshi/Downloads/faceproject/FaceForensics-master/classification/myvideo/origtext/ -m /Users/bqureshi/Downloads/faceproject/FaceForensics-master/classification/faceforensicsmodels/face_detection/xception/full_c23.p -o /Users/bqureshi/Downloads/faceproject/FaceForensics-master/output_orig
+<br>
+example:  <br>
+python detect_from_video.py -i /Users/bqureshi/Downloads/faceproject/FaceForensics-master/classification/myvideo/origtext/ -m <br> /Users/bqureshi/Downloads/faceproject/FaceForensics-master/classification/faceforensicsmodels/face_detection/xception/full_c23.p -o <br> /Users/bqureshi/Downloads/faceproject/FaceForensics-master/output_orig <br>
 
