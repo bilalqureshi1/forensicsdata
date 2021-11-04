@@ -1,4 +1,4 @@
-# Forensic++
+# Forensic++ Applied Data Science Project Group C
 Requirment to run this project is in Linux/Unix environment
 <br>
 Steps to run the code <br>
