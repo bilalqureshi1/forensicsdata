@@ -2,7 +2,7 @@
 Requirment to run this project is in Linux/Unix environment
 <br>
 Steps to run the code <br>
-(1) Download the google drive folder inside the same folder and requirments.txt <br>
+(1) Download the google drive folder inside the same folder and install requirments.txt <br>
 (2) Go to models.py file in network/__pychache__ folder and on line 26 change the file path xception-b5690688.pth to your PCs file path <br>
 (3) Run the detect_from_video.py using the following code <br>
 python detect_from_video.py <br>
