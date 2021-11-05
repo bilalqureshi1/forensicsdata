@@ -18,3 +18,5 @@ in -o create an output folder and specify where to store files <br>
 example:  <br>
 python detect_from_video.py -i /Users/bqureshi/Downloads/faceproject/FaceForensics-master/classification/myvideo/origtext/ -m <br> /Users/bqureshi/Downloads/faceproject/FaceForensics-master/classification/faceforensicsmodels/face_detection/xception/full_c23.p -o <br> /Users/bqureshi/Downloads/faceproject/FaceForensics-master/output_orig <br>
 
+
+Google drive link: https://drive.google.com/drive/folders/12j9Uao6V2nzbs7HMFPaZ_6qpd0X3B5mt
